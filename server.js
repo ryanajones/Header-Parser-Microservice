@@ -17,7 +17,6 @@ app.get("/api/whoami", function (req, res) {
     language: req.header('accept-language'),
     "software": req.header('user-agent'),
   });
-  console.log(req.body);
 });
 
 var listener = app.listen(process.env.PORT || 5000, function () {

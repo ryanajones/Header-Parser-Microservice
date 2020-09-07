@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Request </title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Header Parser Microservice</title>
+  </head>
+  <body>
+    <div id="title">REQUEST HEADER PARSER</div>
+    <div id="content-wrapper">
+      <p class="description" style="padding-top: 10px">
+        <span class="description-span">DESCRIPTION</span> :
+      </p>
+      <p style="margin: 10px 0px 0px 30px">
+        Enter the following path into the URL to receive a JSON response of your
+        IP address, accepted language, and software information - [project_url]
+        /api/whoami
+      </p>
+      <p class="description" style="margin-top: 35px">
+        <span class="description-span">EXAMPLE USAGE</span> :
+      </p>
+      <p style="margin: 10px 0px 0px 30px">
+        Click -->
+        <a href="./api/whoami" style="color: #fce96b"
+          >[project_url] /api/whoami</a
+        >
+      </p>
+      <p class="description" style="margin-top: 35px">
+        <span class="description-span">EXAMPLE OUTPUT</span> :
+      </p>
+      <p style="margin: 10px 0px 0px 30px">
+        <code
+          >{"ipaddress":"::1","language":"en-US,en;q=0.9","software":"Mozilla/5.0
+          (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/85.0.4183.83 Safari/537.36"}</code
+        >
+      </p>
+    </div>
+  </body>
 </html>
